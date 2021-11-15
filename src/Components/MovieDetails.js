@@ -13,7 +13,7 @@ export default class MovieDetails extends Component {
     fetch(
       `https://api.themoviedb.org/3/movie/${
         this.props.match.params.id
-      }?api_key=0324eb4b8130330ff1662244a7f60777&language=en-US`
+      }?api_key=171e2987e8b3b870adbd8ca8f489ae38&language=en-US`
     )
       .then(res => res.json())
       .then(data => {
