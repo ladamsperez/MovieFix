@@ -30,7 +30,7 @@
     font-weight: bold;
   }
   .navbar a:hover {
-    color: #0066cc;
+    color: #5f0a18;
   }
   .navbar form {
     position: relative;
@@ -54,6 +54,7 @@
     right: 5px;
     transform: translateY(-50%);
   }
+
   @media (max-width: 700px) {
     .navbar {
       justify-content: flex-end;
@@ -82,27 +83,28 @@
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
   }
   .home-container input {
+    margin: 0 0.5rem 0 0.5rem;
     display: block;
     padding: 0.6rem;
     border: none;
     border-radius: 10px;
-    width: 1000px;
-    font-size: 30px;
+    width: 400px;
+    font-size: 20px;
   }
   @media (max-width: 400px) {
     .home-container input {
       width: 300px;
-      font-size: 50px;
+      font-size: 30px;
     }
   }
   .home-container button {
     margin: 1.5rem;
-    width: 500px;
+    width: 300px;
     height: 45px;
     border-radius: 25px;
     font-size: 30px;
@@ -121,6 +123,7 @@
     font-size: 100px;
     color: white;
     align-items: center;
+    justify-content: space-between;
   }
   
   /*#endregion*/
@@ -252,4 +255,12 @@
     padding: 25px;
   }
   /*#endregion*/
-  
+
+  .navbar-bottom {
+    background-color: #ffffff00;
+    position: fixed;
+    left: 0%;
+    bottom: 0;
+    width: 10%;
+    text-align: center;
+  }

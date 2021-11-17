@@ -28,6 +28,7 @@ export default class Navbar extends Component {
             <i className="fa fa-search" />
           </button>
         </form>
+        <img src="http://www.insertitle.com/images/tmdb-logo.png" class="img-fluid"></img>
       </nav>
     )
   }
